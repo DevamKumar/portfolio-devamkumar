@@ -36,15 +36,15 @@ export function Blogs() {
 
   if (loading) {
     return (
-      <section id="blogs" className="py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold tracking-tight mb-2">Blog</h2>
-          <div className="w-12 h-0.5 bg-foreground mb-12" />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[1, 2, 3, 4].map((i) => (
+      <section id="blogs" className="py-28">
+        <div className="max-w-6xl mx-auto px-8 lg:px-16">
+          <h2 className="text-4xl font-bold tracking-tight mb-3">Blog</h2>
+          <div className="w-14 h-0.5 bg-foreground mb-14" />
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            {[1, 2, 3].map((i) => (
               <div
                 key={i}
-                className="h-40 rounded-lg bg-muted animate-pulse"
+                className="h-48 rounded-lg bg-muted animate-pulse"
               />
             ))}
           </div>
@@ -55,12 +55,12 @@ export function Blogs() {
 
   if (posts.length === 0) {
     return (
-      <section id="blogs" className="py-24">
-        <div className="max-w-4xl mx-auto px-6">
+      <section id="blogs" className="py-28">
+        <div className="max-w-6xl mx-auto px-8 lg:px-16">
           <FadeIn>
-            <h2 className="text-3xl font-bold tracking-tight mb-2">Blog</h2>
-            <div className="w-12 h-0.5 bg-foreground mb-8" />
-            <p className="text-muted-foreground">
+            <h2 className="text-4xl font-bold tracking-tight mb-3">Blog</h2>
+            <div className="w-14 h-0.5 bg-foreground mb-10" />
+            <p className="text-lg text-muted-foreground">
               Check out my latest articles on{" "}
               <a
                 href="https://medium.com/@devamkumar"
@@ -79,22 +79,22 @@ export function Blogs() {
   }
 
   return (
-    <section id="blogs" className="py-24">
-      <div className="max-w-4xl mx-auto px-6">
+    <section id="blogs" className="py-28">
+      <div className="max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
-          <h2 className="text-3xl font-bold tracking-tight mb-2">Blog</h2>
-          <div className="w-12 h-0.5 bg-foreground mb-12" />
+          <h2 className="text-4xl font-bold tracking-tight mb-3">Blog</h2>
+          <div className="w-14 h-0.5 bg-foreground mb-14" />
         </FadeIn>
 
-        <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {posts.slice(0, 6).map((post, i) => (
             <FadeInStaggerItem key={i}>
               <Card className="h-full flex flex-col hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-base line-clamp-2">
+                <CardHeader className="p-8">
+                  <CardTitle className="text-lg line-clamp-2">
                     {post.title}
                   </CardTitle>
-                  <CardDescription className="text-xs mt-1">
+                  <CardDescription className="text-sm mt-2">
                     {new Date(post.pubDate).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",
@@ -102,7 +102,7 @@ export function Blogs() {
                     })}
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="mt-auto">
+                <CardContent className="mt-auto px-8 pb-8 pt-0">
                   <Button variant="ghost" size="sm" asChild>
                     <a
                       href={post.link}

@@ -9,35 +9,35 @@ import profile from "@/data/profile.json";
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24">
-      <div className="max-w-4xl mx-auto px-6">
+    <section id="projects" className="py-28">
+      <div className="max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
-          <h2 className="text-3xl font-bold tracking-tight mb-2">Projects</h2>
-          <div className="w-12 h-0.5 bg-foreground mb-12" />
+          <h2 className="text-4xl font-bold tracking-tight mb-3">What I&apos;ve Shipped</h2>
+          <div className="w-14 h-0.5 bg-foreground mb-14" />
         </FadeIn>
 
-        <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {profile.projects.map((project, i) => (
             <FadeInStaggerItem key={i}>
               <Card className="h-full flex flex-col hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-base">{project.title}</CardTitle>
-                  <CardDescription className="mt-2">
+                <CardHeader className="p-8">
+                  <CardTitle className="text-lg">{project.title}</CardTitle>
+                  <CardDescription className="mt-3 text-base leading-relaxed">
                     {project.description}
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="mt-auto">
-                  <div className="flex flex-wrap gap-1.5 mb-4">
+                <CardContent className="mt-auto px-8 pb-8 pt-0">
+                  <div className="flex flex-wrap gap-2 mb-6">
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="text-xs px-2 py-0.5 rounded bg-muted text-muted-foreground"
+                        className="text-sm px-3 py-1 rounded bg-muted text-muted-foreground"
                       >
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-3">
                     <Button variant="outline" size="sm" asChild>
                       <a
                         href={project.github}

@@ -9,31 +9,31 @@ import { FadeIn } from "@/components/motion";
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center pt-16">
-      <div className="max-w-6xl mx-auto px-6 py-20">
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
+      <div className="max-w-7xl w-full mx-auto px-8 lg:px-16 py-20">
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-16 lg:gap-24">
           <FadeIn className="flex-1 text-center lg:text-left">
-            <p className="text-sm font-medium text-muted-foreground uppercase tracking-widest mb-4">
-              Associate Solution Architect & AI Engineer
+            <p className="text-base font-medium text-muted-foreground uppercase tracking-widest mb-5">
+              Solution Architect · AI Engineer · Backend Engineer
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8">
               Devam Kumar
             </h1>
-            <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed mb-8">
-              I build cloud-native applications, AI-powered solutions, developer
-              platforms, and enterprise-scale architectures that help
-              organizations move faster and innovate efficiently.
+            <p className="text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-10">
+              I architect enterprise platforms, build AI agents that automate
+              workflows, and engineer backend systems & SDKs that other
+              developers build on.
             </p>
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
-              <Button asChild>
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
+              <Button size="lg" asChild>
                 <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                  <FileText size={16} />
+                  <FileText size={18} />
                   View Resume
                 </a>
               </Button>
-              <Button variant="outline" asChild>
+              <Button variant="outline" size="lg" asChild>
                 <a href="#contact">
-                  <Mail size={16} />
-                  Contact Me
+                  <Mail size={18} />
+                  Let&apos;s Talk
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
@@ -43,7 +43,7 @@ export function Hero() {
                   rel="noopener noreferrer"
                   aria-label="GitHub"
                 >
-                  <GithubIcon size={18} />
+                  <GithubIcon size={20} />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
@@ -53,19 +53,20 @@ export function Hero() {
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
-                  <LinkedinIcon size={18} />
+                  <LinkedinIcon size={20} />
                 </a>
               </Button>
             </div>
           </FadeIn>
 
           <FadeIn delay={0.2} className="flex-shrink-0">
-            <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
+            <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-neutral-200 to-neutral-100" />
               <Image
                 src="/profile.png"
                 alt="Devam Kumar"
                 fill
+                sizes="(max-width: 640px) 288px, (max-width: 1024px) 320px, 384px"
                 className="rounded-full object-cover p-1"
                 priority
               />

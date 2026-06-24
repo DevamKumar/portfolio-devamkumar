@@ -132,21 +132,21 @@ function findAnswer(question: string): { answer: string; found: boolean } {
 
   if (q.includes("cloud") || q.includes("aws")) {
     return {
-      answer: `Devam has expertise in Cloud & AWS including: ${profile.skills.Cloud.join(", ")}. He holds AWS Certified Solutions Architect Associate, AWS Certified AI Practitioner, and AWS Certified Cloud Practitioner certifications.`,
+      answer: `Devam has deep expertise in Cloud & Infrastructure: ${profile.skills["Cloud & Infrastructure"].join(", ")}. He holds AWS Certified Solutions Architect Associate, AWS Certified AI Practitioner, and AWS Certified Cloud Practitioner certifications.`,
       found: true,
     };
   }
 
   if (q.includes("devops")) {
     return {
-      answer: `Devam's DevOps skills include: ${profile.skills.DevOps.join(", ")}. He worked as a DevOps Engineer Intern at Aerin IT Services and completed DevOps training at KodeKloud.`,
+      answer: `Devam's DevOps & CI/CD skills include: ${profile.skills["DevOps & CI/CD"].join(", ")}. He worked as a DevOps Engineer at Aerin IT Services and completed advanced training at KodeKloud.`,
       found: true,
     };
   }
 
   if (q.includes("ai") || q.includes("agent") || q.includes("machine learning")) {
     return {
-      answer: `Devam's AI expertise includes: ${profile.skills.AI.join(", ")}. He builds AI agents and AI-powered solutions in his current role as Associate Solution Architect at Iron Mountain.`,
+      answer: `Devam's AI & Automation expertise includes: ${profile.skills["AI & Automation"].join(", ")}. He builds AI agents and MCP servers in his current role as Solution Architect at Iron Mountain.`,
       found: true,
     };
   }
