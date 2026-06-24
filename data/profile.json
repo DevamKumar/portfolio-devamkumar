@@ -1,0 +1,174 @@
+{
+  "name": "Devam Kumar",
+  "headline": "Associate Solution Architect | AWS Certified Solutions Architect | AI Agents | Java | Python | Cloud | DevOps",
+  "subtitle": "Associate Solution Architect & AI Engineer",
+  "location": "Chandigarh, India",
+  "email": "email2devam@gmail.com",
+  "introduction": "I build cloud-native applications, AI-powered solutions, developer platforms, and enterprise-scale architectures that help organizations move faster and innovate efficiently.",
+  "about": [
+    "I'm a Computer Science Engineer and Associate Solution Architect with experience in Cloud Architecture, AI Agents, Developer Platforms, SDK Development, DevOps, and Backend Engineering.",
+    "My expertise spans Java, Python, AWS, Terraform, Docker, Kubernetes, Jenkins, and modern AI-powered systems.",
+    "Currently, I design enterprise solutions, build AI agents, develop SDKs, and enable partners through technical training and solution architecture.",
+    "I enjoy building scalable systems, sharing technical knowledge through blogs, and contributing to developer communities."
+  ],
+  "links": {
+    "linkedin": "https://linkedin.com/in/devam-kumar",
+    "github": "https://github.com/DevamKumar",
+    "medium": "https://medium.com/@devamkumar",
+    "email": "mailto:email2devam@gmail.com"
+  },
+  "experience": [
+    {
+      "title": "Associate Solution Architect",
+      "company": "Iron Mountain",
+      "period": "Jan 2026 – Present",
+      "responsibilities": [
+        "Designed enterprise-scale DXP architectures",
+        "Built custom SDKs for partner integrations",
+        "Developed AI agents for workflow automation",
+        "Conducted partner enablement and technical training",
+        "Architected cloud-native solutions on AWS"
+      ]
+    },
+    {
+      "title": "DevOps Engineer Intern",
+      "company": "Aerin IT Services",
+      "period": "Aug 2025 – Dec 2025",
+      "responsibilities": [
+        "Terraform Infrastructure as Code",
+        "AWS Cloud architecture and deployment",
+        "Jenkins CI/CD pipeline automation",
+        "Docker containerization",
+        "Ansible configuration management",
+        "Grafana monitoring and observability",
+        "ECS, ECR, and Fargate orchestration"
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "LeadManch",
+      "period": "Oct 2022 – Dec 2025",
+      "responsibilities": [
+        "Spring Boot application development",
+        "REST API design and implementation",
+        "MongoDB and PostgreSQL database management",
+        "Flyway database migrations",
+        "Thymeleaf server-side rendering"
+      ]
+    },
+    {
+      "title": "DevOps Trainee",
+      "company": "KodeKloud",
+      "period": "Apr 2024 – Sept 2024",
+      "responsibilities": [
+        "Docker containerization and orchestration",
+        "Kubernetes cluster management",
+        "RBAC and security policies",
+        "Troubleshooting distributed systems",
+        "Cloud Native infrastructure design"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect Associate",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "Kubernetes Level 1",
+      "issuer": "KodeKloud"
+    },
+    {
+      "name": "Foundations of Project Management",
+      "issuer": "Google"
+    },
+    {
+      "name": "AI Applications with Python and Flask",
+      "issuer": "IBM"
+    },
+    {
+      "name": "NoSQL Databases",
+      "issuer": "IBM"
+    },
+    {
+      "name": "Networking Fundamentals",
+      "issuer": "Google"
+    },
+    {
+      "name": "Computer Vision",
+      "issuer": "Coursera"
+    },
+    {
+      "name": "Angular Developer Program",
+      "issuer": "Infosys"
+    }
+  ],
+  "skills": {
+    "Programming": ["Java", "Python", "SQL", "JavaScript"],
+    "Backend": ["Spring Boot", "REST APIs", "SDK Development", "Webhooks"],
+    "Cloud": ["AWS", "Terraform", "CloudFormation"],
+    "DevOps": ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Bitbucket Pipelines", "Ansible"],
+    "Databases": ["PostgreSQL", "MongoDB"],
+    "AI": ["Generative AI", "AI Agents", "Machine Learning", "OpenAI APIs", "MCP", "Agentic Workflows"],
+    "Architecture": ["System Design", "Microservices", "OOP", "SOLID Principles"]
+  },
+  "projects": [
+    {
+      "title": "CoffeeHouse Inventory System",
+      "technologies": ["Java", "Spring Boot", "MongoDB", "Jenkins", "Docker", "ArgoCD"],
+      "description": "Inventory management platform with analytics, reusable SDK, CI/CD pipeline, and SOLID architecture.",
+      "github": "https://github.com/DevamKumar"
+    },
+    {
+      "title": "Hospital Management System",
+      "technologies": ["Spring Boot", "PostgreSQL", "Docker", "Kubernetes"],
+      "description": "Healthcare management system with appointments, billing, webhook events, and containerized deployment.",
+      "github": "https://github.com/DevamKumar"
+    },
+    {
+      "title": "Ticket Booking System",
+      "technologies": ["Java", "PostgreSQL", "Flyway"],
+      "description": "Seat reservation platform with REST APIs, Docker deployment, and booking automation.",
+      "github": "https://github.com/DevamKumar"
+    },
+    {
+      "title": "Object Detection System",
+      "technologies": ["TensorFlow", "OpenCV"],
+      "description": "Real-time object detection system achieving 85%+ accuracy.",
+      "github": "https://github.com/DevamKumar"
+    },
+    {
+      "title": "IoT Home Security System",
+      "technologies": ["IoT", "Cloud"],
+      "description": "Motion sensor based home security solution with cloud alerts.",
+      "github": "https://github.com/DevamKumar"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Air Quality Index Monitoring System using IoT",
+      "description": "Research paper on IoT-based air quality monitoring with real-time data collection and analysis."
+    },
+    {
+      "title": "Deep Learning for Malnutrition Detection",
+      "description": "Research paper on using deep learning models for early malnutrition detection in children."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering",
+      "field": "Computer Science Engineering",
+      "institution": "Chandigarh University",
+      "cgpa": "7.53",
+      "period": "2021 – 2025"
+    }
+  ]
+}
