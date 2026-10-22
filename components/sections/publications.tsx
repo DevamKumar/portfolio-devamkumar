@@ -23,9 +23,16 @@ export function Publications() {
                 <CardHeader className="p-8">
                   <div className="flex items-start gap-4">
                     <FileText size={22} className="mt-0.5 text-muted-foreground flex-shrink-0" />
-                    <div>
-                      <CardTitle className="text-lg">{pub.title}</CardTitle>
-                      <CardDescription className="mt-2 text-base leading-relaxed">
+                    <div className="flex-1">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
+                        <CardTitle className="text-lg">{pub.title}</CardTitle>
+                        {"venue" in pub && pub.venue && (
+                          <span className="text-xs px-2.5 py-1 rounded-md bg-muted text-muted-foreground font-medium self-start sm:self-auto flex-shrink-0">
+                            {pub.venue}
+                          </span>
+                        )}
+                      </div>
+                      <CardDescription className="text-base leading-relaxed">
                         {pub.description}
                       </CardDescription>
                     </div>

@@ -1,77 +1,133 @@
 {
   "name": "Devam Kumar",
-  "headline": "I architect enterprise platforms, build AI agents, and engineer backend systems that scale.",
-  "subtitle": "Solution Architect · AI Engineer · Backend Engineer",
-  "location": "Chandigarh, India",
+  "headline": "Backend and AI Engineer and Associate Solution Architect at Iron Mountain, shipping agentic AI document workflows on an enterprise IDP platform.",
+  "subtitle": "Backend & AI Engineer · Associate Solution Architect",
+  "location": "Ambala, Haryana, India",
+  "phone": "+91 8059631526",
   "email": "email2devam@gmail.com",
-  "introduction": "I architect enterprise platforms, build AI agents that automate workflows, and engineer backend systems & SDKs that other developers build on.",
+  "summary": "Backend and AI Engineer and Associate Solution Architect at Iron Mountain, shipping agentic AI document workflows on an enterprise IDP platform. Builds Python (FastAPI) and Java (Spring Boot) APIs, LLM agents (LangGraph, RAG, MCP) and AWS CI/CD pipelines, and turns architecture decisions into measurable business impact for customers and cross-functional teams.",
+  "introduction": "Backend and AI Engineer and Associate Solution Architect at Iron Mountain, shipping agentic AI document workflows on an enterprise IDP platform. I build Python (FastAPI) and Java (Spring Boot) APIs, LLM agents (LangGraph, RAG, MCP), and AWS CI/CD pipelines, turning architecture decisions into measurable business impact.",
   "about": [
-    "I'm a Solution Architect who sits at the intersection of enterprise platforms, AI systems, and backend engineering — designing architectures that solve real business problems at scale.",
-    "At Iron Mountain, I architect DXP solutions, build AI agents that automate complex workflows, develop MCP servers for intelligent content interactions, and ship scalable SDKs that enable partners to integrate seamlessly.",
-    "My engineering foundation is 3+ years of shipping production backend systems — Spring Boot microservices, REST APIs, database architectures, and SDK layers that other developers build on top of.",
-    "I write about what I build. My technical articles break down architecture patterns, AI agent design, and backend engineering decisions for the developer community."
+    "I'm a Backend & AI Engineer and Associate Solution Architect at Iron Mountain, sitting at the intersection of enterprise Intelligent Document Processing (IDP) platforms, agentic AI systems, and high-scale backend engineering.",
+    "At Iron Mountain, I design and ship end-to-end agentic AI workflows (LangGraph, RAG, MCP), build LLM-based custom AI processors that transform heterogeneous unstructured documents into schema-aligned outputs, and develop Python (FastAPI) & Java (Spring Boot) APIs that power mission-critical enterprise workloads.",
+    "My engineering foundation spans building production backend systems, scalable SDKs, and automated AWS CI/CD infrastructure — from Terraform & Docker to Jenkins, ECS/Fargate, and Kubernetes.",
+    "I write about what I build. My technical articles break down architecture patterns, LLM agent pipelines, and backend engineering decisions for the developer community."
   ],
   "links": {
     "linkedin": "https://linkedin.com/in/devam-kumar",
     "github": "https://github.com/DevamKumar",
     "medium": "https://medium.com/@devamkumar",
-    "email": "mailto:email2devam@gmail.com"
+    "email": "mailto:email2devam@gmail.com",
+    "resume": "https://drive.google.com/file/d/1gM8EJNR2vFEta2QwfZ76fJ7NyG0l_jrs/view"
   },
   "experience": [
     {
       "title": "Associate Solution Architect",
-      "company": "Iron Mountain India Pvt Ltd",
+      "company": "Iron Mountain",
       "location": "Bangalore, India · On-site",
       "period": "Jan 2026 – Present",
       "responsibilities": [
-        "Architected and shipped a reusable SDK layer on top of Iron Mountain's DXP — now used by partners to integrate enterprise content management in days, not months",
-        "Built custom processors and platform extensions that unlocked new DXP use cases for enterprise clients with complex business workflows",
-        "Prototyped an MCP (Model Context Protocol) server — enabling AI agents to interact with enterprise content, metadata, and workflows programmatically",
-        "Designed AI-powered automation pipelines that eliminated repetitive manual operations across content lifecycle management",
-        "Led technical enablement for partner engineers — running architecture walkthroughs, live demos, and integration workshops"
+        "Improved structured-data generation and document classification accuracy by 18% by designing and developing end-to-end agentic AI workflows for an enterprise Intelligent Document Processing (IDP) platform.",
+        "Reduced manual document processing time by 30 hours per week by building and evaluating LLM-based custom AI processors that transform heterogeneous, unstructured documents into schema-aligned outputs.",
+        "Increased search retrieval speed by 45% by engineering an alternative ingestion path through Google Cloud Storage that enables vector embeddings, full-text search and Elasticsearch indexing for externally generated OCR text/JSON.",
+        "Accelerated partner integration testing by 40% by building a comprehensive API integration library with webhook testing against Stripe and mock REST APIs.",
+        "Reduced repeat partner support tickets by 25% by writing SDK usage guides, reference workflows and troubleshooting runbooks for the developer platform.",
+        "Facilitated the rapid onboarding of 6 enterprise clients by leading cross-functional communication between product, engineering, QA and client stakeholders, supporting SDK development and workflow deployments, running system-integrator enablement sessions, and translating architecture decisions into business impact."
       ]
     },
     {
-      "title": "DevOps Engineer",
-      "company": "Aerin IT Services Private Limited",
+      "title": "DevOps Engineer Intern",
+      "company": "AerinIT Services Pvt Ltd",
       "location": "Chandigarh, India · On-site",
-      "period": "Aug 2025 – Dec 2025 · 5 mos",
+      "period": "Aug 2025 – Dec 2025",
       "responsibilities": [
-        "Owned the full AWS infrastructure stack — provisioned EC2, VPCs, security groups, and IAM via Terraform with zero-touch deployments",
-        "Automated node bootstrapping using Terraform provisioners + Ansible, reducing new server setup from hours to minutes",
-        "Built Jenkins CI/CD pipelines that handled the full lifecycle: build → test → containerize → push to ECR → deploy to ECS/Fargate",
-        "Containerized applications with Docker and established image registries on AWS ECR for production-grade deployments",
-        "Set up Grafana observability dashboards and alerting — giving the team real-time visibility into infrastructure health",
-        "Enforced Git-based workflows with branching strategies and PR reviews as standard practice"
+        "Reduced average deployment time from 45 minutes to under 10 minutes by building and maintaining Jenkins CI/CD pipelines that automate Docker image builds, Amazon ECR pushes and AWS ECS/Fargate deployments.",
+        "Decreased infrastructure provisioning time by 70% by using Terraform to deploy AWS resources (EC2, S3, EBS, VPC) and bootstrapping Python on remote nodes for Ansible.",
+        "Eliminated 8 hours of manual setup per week by automating server configurations with Ansible playbooks and deploying centralized Grafana monitoring for internal Git and Jenkins labs.",
+        "Kept configuration consistent across 20+ servers by replacing ad-hoc changes with idempotent, version-controlled Ansible roles and Git pull-request reviews."
       ]
     },
     {
-      "title": "Backend Engineer",
+      "title": "Web Developer (Part-time)",
       "company": "LeadManch",
       "location": "Zirakpur · Remote",
-      "period": "Oct 2022 – Dec 2025 · 3 yrs 3 mos",
+      "period": "Oct 2022 – Dec 2025",
       "responsibilities": [
-        "Designed and shipped production Java/Spring Boot applications — REST APIs, modular service architecture, clean domain boundaries",
-        "Built full-stack features end-to-end: Thymeleaf UIs → service layer → PostgreSQL/MongoDB with Flyway-managed schema migrations",
-        "Implemented business-critical logic including real-time analytics, seat allocation algorithms, and order processing pipelines",
-        "Maintained engineering standards: version-controlled everything, documented architectural decisions, published technical write-ups"
+        "Supported up to 500 concurrent users with zero downtime by developing Java/Spring Boot REST APIs and server-rendered features for analytics, seat booking and order processing.",
+        "Improved database query performance by 35% by designing optimized PostgreSQL and MongoDB schemas and managing versioned database migrations with Flyway.",
+        "Reduced API error rates by 45% by implementing robust request validation and centralized error handling across all application endpoints."
       ]
     },
     {
       "title": "DevOps Trainee",
       "company": "KodeKloud",
-      "period": "Apr 2024 – Sep 2024 · 6 mos",
+      "period": "Apr 2024 – Sep 2024",
       "responsibilities": [
-        "Completed intensive hands-on training in Docker, Kubernetes, and cloud-native infrastructure patterns",
-        "Deployed and managed multi-container applications with production-like orchestration and networking",
-        "Implemented RBAC security policies and hardened Kubernetes clusters following industry standards",
-        "Solved real-world infrastructure case studies — troubleshooting distributed systems under failure conditions"
+        "Achieved 99% workload reliability across 50+ pods in hands-on simulated environments by containerizing 3+ applications with Docker, managing Kubernetes workloads with RBAC, and troubleshooting networking and cluster issues."
       ]
     }
   ],
+  "skills": {
+    "AI / LLM": [
+      "LangGraph",
+      "LangChain",
+      "OpenAI API",
+      "OpenAI Agents SDK",
+      "RAG",
+      "Embeddings",
+      "Vector Search",
+      "MCP",
+      "Multi-Agent Systems"
+    ],
+    "Backend & APIs": [
+      "FastAPI",
+      "Spring Boot",
+      "REST APIs",
+      "SQLAlchemy",
+      "Alembic",
+      "Flyway",
+      "Pydantic",
+      "JWT",
+      "Webhooks",
+      "SDK Design"
+    ],
+    "Languages": [
+      "Python",
+      "Java",
+      "SQL",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "Elasticsearch",
+      "pgvector",
+      "LanceDB"
+    ],
+    "Cloud & DevOps": [
+      "AWS (EC2, S3, ECS, Fargate, ECR, EKS)",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "Argo CD",
+      "Grafana"
+    ],
+    "Professional": [
+      "Cross-Functional Communication",
+      "Customer and Partner Enablement",
+      "Solution Architecture",
+      "Technical Writing"
+    ]
+  },
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect Associate",
+      "name": "AWS Certified Solutions Architect – Associate",
       "issuer": "Amazon Web Services"
     },
     {
@@ -93,101 +149,79 @@
     {
       "name": "AI Applications with Python and Flask",
       "issuer": "IBM"
-    },
-    {
-      "name": "NoSQL Databases",
-      "issuer": "IBM"
-    },
-    {
-      "name": "Networking Fundamentals",
-      "issuer": "Google"
-    },
-    {
-      "name": "Computer Vision",
-      "issuer": "Coursera"
-    },
-    {
-      "name": "Angular Developer Program",
-      "issuer": "Infosys"
     }
   ],
-  "skills": {
-    "Solution Architecture": ["System Design", "Microservices", "Event-Driven Architecture", "DXP Platforms", "SDK Design", "SOLID Principles"],
-    "AI & Automation": ["AI Agents", "MCP Servers", "Agentic Workflows", "Generative AI", "OpenAI APIs", "Machine Learning"],
-    "Backend Engineering": ["Java", "Spring Boot", "Python", "REST APIs", "Webhooks", "Flyway", "OOP"],
-    "Data & Storage": ["PostgreSQL", "MongoDB", "SQL", "Schema Design", "Database Migrations"],
-    "Cloud & Infrastructure": ["AWS", "Terraform", "CloudFormation", "ECS", "Fargate"],
-    "DevOps & CI/CD": ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Bitbucket Pipelines", "ArgoCD", "Ansible", "Grafana"]
-  },
   "projects": [
     {
-      "title": "AI Career Chatbot — Talks Like Me",
-      "technologies": ["Python", "OpenAI API", "Gradio", "Pushover", "Hugging Face"],
-      "description": "A personal AI assistant that answers recruiter questions about my skills and experience in real-time, captures visitor emails, and sends instant notifications — like a 24/7 AI version of myself.",
-      "github": "https://lnkd.in/gjep-aX8"
-    },
-    {
-      "title": "CoffeeHouse Inventory Platform",
-      "technologies": ["Java", "Spring Boot", "MongoDB", "Jenkins", "Docker", "ArgoCD"],
-      "description": "Production-grade inventory system with a reusable SDK, real-time analytics, GitOps-driven CI/CD (Jenkins → ArgoCD), and clean SOLID architecture.",
+      "title": "Text-to-SQL Multi-Agent System",
+      "technologies": ["Python", "FastAPI", "LangChain", "SQLAlchemy", "PostgreSQL"],
+      "description": "Let non-technical users query PostgreSQL in plain English with 90% query accuracy on a 100-question test set through a 5-agent pipeline (Planner, Generator, Validator, Executor, Explainer) served by FastAPI. Blocked 100% of destructive statements (DROP, DELETE) in testing and cut hallucinated tables and columns by 70% by enforcing read-only guardrails and grounding generation in schema and sample-row context.",
       "github": "https://github.com/DevamKumar"
     },
     {
-      "title": "Hospital Management System",
-      "technologies": ["Spring Boot", "PostgreSQL", "Docker", "Kubernetes"],
-      "description": "End-to-end healthcare platform — appointments, billing, webhook-driven event processing — running on Kubernetes with automated scaling.",
+      "title": "VeydrakCLI – AI Coding Agent",
+      "technologies": ["Python", "LangGraph", "Pydantic", "pytest"],
+      "description": "Made multi-file AI code changes safe to apply, with zero edits reaching the real repository before tests pass and a human approves, by building a LangGraph agent that plans with Pydantic, generates in a map-reduce fan-out and self-tests with pytest in a sandbox. Cut routine refactor time by 50% by giving the agent AST, grep and glob tools to map code before planning.",
       "github": "https://github.com/DevamKumar"
     },
     {
-      "title": "Ticket Booking Engine",
-      "technologies": ["Java", "PostgreSQL", "Flyway"],
-      "description": "High-throughput seat reservation engine with concurrent booking handling, REST APIs, schema-versioned migrations, and containerized deployment.",
+      "title": "Multi-Agent Deep Researcher",
+      "technologies": ["Python", "LangGraph", "OpenAI", "LanceDB", "Streamlit"],
+      "description": "Produced citation-audited research reports from 3 web search tiers (Tavily, DuckDuckGo, Wikipedia) plus local PDF/Word/Markdown files by orchestrating supervisor-led agents with LanceDB RAG. Reduced unsupported claims in final reports by 60% by adding fact-checking, contradiction-detection and gap-filling follow-up query loops.",
       "github": "https://github.com/DevamKumar"
     },
     {
-      "title": "Real-Time Object Detection",
-      "technologies": ["TensorFlow", "OpenCV", "Python"],
-      "description": "Computer vision pipeline achieving 85%+ accuracy on real-time video streams — trained, optimized, and deployed as an inference service.",
+      "title": "CoffeeHouse Inventory Management System",
+      "technologies": ["Spring Boot", "MongoDB", "Jenkins", "Argo CD", "Docker"],
+      "description": "Cut deployment effort by 80% while processing 200+ transactions by building 15+ SOLID-based components, a reusable SDK and a Jenkins, Docker and Argo CD delivery pipeline.",
       "github": "https://github.com/DevamKumar"
     },
     {
-      "title": "IoT Home Security System",
-      "technologies": ["IoT", "Cloud", "Python"],
-      "description": "Motion-sensor security system with cloud-based alerting, real-time notifications, and remote monitoring capabilities.",
+      "title": "Hospital Management & Ticket Booking Systems",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Flyway"],
+      "description": "Reduced administrative workload by 60% across 100+ patient records by automating scheduling and report generation with Spring Boot REST APIs and webhook events. Improved booking accuracy by 95% with zero data loss in testing by implementing venue-capacity checks and double-booking prevention.",
+      "github": "https://github.com/DevamKumar"
+    },
+    {
+      "title": "Python Stripe SDK & Video Processing Service",
+      "technologies": ["Python", "FastAPI", "Stripe", "AWS S3", "Docker"],
+      "description": "Cut payment-integration setup time by 70% across projects by packaging a pip-installable Stripe SDK for products and checkout sessions with cryptographic webhook signature verification. Automated S3-to-S3 media processing for 500+ videos by building a FastAPI service on MoviePy and FFmpeg, containerized with Docker and run under systemd on EC2.",
       "github": "https://github.com/DevamKumar"
     }
   ],
   "publications": [
     {
-      "title": "Air Quality Index Monitoring System using IoT",
-      "description": "Research paper on IoT-based air quality monitoring with real-time data collection and analysis."
+      "title": "Deep Learning for Malnutrition Detection: Implications for Global Health",
+      "venue": "International Journal of Scientific Research in Engineering and Management (IJSREM), 2024",
+      "description": "Research paper on using deep learning models for early malnutrition detection in children, published in IJSREM (2024)."
     },
     {
-      "title": "Deep Learning for Malnutrition Detection",
-      "description": "Research paper on using deep learning models for early malnutrition detection in children."
+      "title": "Air Quality Index Monitoring System using IoT",
+      "venue": "Research Publication",
+      "description": "Research paper on IoT-based air quality monitoring with real-time data collection and analysis."
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Engineering",
+      "degree": "Bachelor of Engineering (B.E.)",
       "field": "Computer Science Engineering",
       "institution": "Chandigarh University",
       "cgpa": "7.53",
       "period": "Aug 2021 – Jun 2025"
     },
     {
-      "degree": "Intermediate",
-      "field": "Senior Secondary (HP-BOSE)",
-      "institution": "Career Academy Sr. Sec. School",
+      "degree": "Class XII (HP-BOSE)",
+      "field": "Senior Secondary",
+      "institution": "Career Academy Senior Secondary School",
       "cgpa": "89.4%",
-      "period": "Apr 2020 – Mar 2021"
+      "period": "2021"
     },
     {
-      "degree": "Matriculation",
-      "field": "Secondary (CBSE)",
+      "degree": "Class X (CBSE)",
+      "field": "Secondary Education",
       "institution": "DAV Sr. Sec. Public School",
       "cgpa": "87%",
-      "period": "Apr 2018 – Mar 2019"
+      "period": "2019"
     }
   ]
 }

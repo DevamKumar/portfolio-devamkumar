@@ -59,7 +59,8 @@ function findAnswer(question: string): { answer: string; found: boolean } {
     "about", "who", "introduce", "background",
     "devam", "name",
     "cloud", "devops", "ai", "agent", "architect",
-    "java", "python", "spring", "docker",
+    "java", "python", "spring", "docker", "fastapi", "langgraph", "llm", "mcp", "rag",
+    "resume", "cv",
     "iron mountain", "aerin", "leadmanch", "kodekloud",
   ];
 
@@ -69,6 +70,13 @@ function findAnswer(question: string): { answer: string; found: boolean } {
     return {
       answer: "I don't have enough information to answer that accurately. Let me notify Devam so he can get back to you.",
       found: false,
+    };
+  }
+
+  if (q.includes("resume") || q.includes("cv")) {
+    return {
+      answer: `You can view and download Devam's latest resume here: ${profile.links.resume}`,
+      found: true,
     };
   }
 
@@ -125,28 +133,35 @@ function findAnswer(question: string): { answer: string; found: boolean } {
   if (q.includes("iron mountain")) {
     const exp = profile.experience[0];
     return {
-      answer: `At ${exp.company}, Devam works as ${exp.title} (${exp.period}). His responsibilities include: ${exp.responsibilities.join(", ")}.`,
+      answer: `At ${exp.company}, Devam works as ${exp.title} (${exp.period}). Key achievements include: ${exp.responsibilities.slice(0, 3).join("; ")}.`,
       found: true,
     };
   }
 
   if (q.includes("cloud") || q.includes("aws")) {
     return {
-      answer: `Devam has deep expertise in Cloud & Infrastructure: ${profile.skills["Cloud & Infrastructure"].join(", ")}. He holds AWS Certified Solutions Architect Associate, AWS Certified AI Practitioner, and AWS Certified Cloud Practitioner certifications.`,
+      answer: `Devam has deep expertise in Cloud & DevOps: ${profile.skills["Cloud & DevOps"].join(", ")}. He holds AWS Certified Solutions Architect – Associate, AWS Certified AI Practitioner, and AWS Certified Cloud Practitioner certifications.`,
       found: true,
     };
   }
 
   if (q.includes("devops")) {
     return {
-      answer: `Devam's DevOps & CI/CD skills include: ${profile.skills["DevOps & CI/CD"].join(", ")}. He worked as a DevOps Engineer at Aerin IT Services and completed advanced training at KodeKloud.`,
+      answer: `Devam's DevOps skills include: ${profile.skills["Cloud & DevOps"].join(", ")}. He worked as a DevOps Engineer Intern at AerinIT Services and completed training at KodeKloud.`,
       found: true,
     };
   }
 
-  if (q.includes("ai") || q.includes("agent") || q.includes("machine learning")) {
+  if (q.includes("ai") || q.includes("agent") || q.includes("llm") || q.includes("machine learning")) {
     return {
-      answer: `Devam's AI & Automation expertise includes: ${profile.skills["AI & Automation"].join(", ")}. He builds AI agents and MCP servers in his current role as Solution Architect at Iron Mountain.`,
+      answer: `Devam's AI & LLM expertise includes: ${profile.skills["AI / LLM"].join(", ")}. At Iron Mountain, he designs and ships agentic AI workflows on enterprise IDP platforms using LangGraph, RAG, and MCP.`,
+      found: true,
+    };
+  }
+
+  if (q.includes("backend") || q.includes("api") || q.includes("fastapi") || q.includes("spring")) {
+    return {
+      answer: `Devam builds robust backend systems and APIs using: ${profile.skills["Backend & APIs"].join(", ")}. He specializes in Python (FastAPI) and Java (Spring Boot) microservices.`,
       found: true,
     };
   }

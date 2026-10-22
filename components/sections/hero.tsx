@@ -6,6 +6,8 @@ import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/motion";
 
+import profile from "@/data/profile.json";
+
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center pt-16">
@@ -13,19 +15,21 @@ export function Hero() {
         <div className="flex flex-col-reverse lg:flex-row items-center gap-16 lg:gap-24">
           <FadeIn className="flex-1 text-center lg:text-left">
             <p className="text-base font-medium text-muted-foreground uppercase tracking-widest mb-5">
-              Solution Architect · AI Engineer · Backend Engineer
+              {profile.subtitle}
             </p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8">
-              Devam Kumar
+              {profile.name}
             </h1>
             <p className="text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-10">
-              I architect enterprise platforms, build AI agents that automate
-              workflows, and engineer backend systems & SDKs that other
-              developers build on.
+              {profile.introduction}
             </p>
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
               <Button size="lg" asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href={profile.links.resume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FileText size={18} />
                   View Resume
                 </a>

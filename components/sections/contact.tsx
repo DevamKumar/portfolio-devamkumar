@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { Send, Mail, BookOpen } from "lucide-react";
+import { Send, Mail, BookOpen, MapPin } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { FadeIn } from "@/components/motion";
+import profile from "@/data/profile.json";
 
 export function Contact() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -59,18 +60,24 @@ export function Contact() {
           <FadeIn delay={0.1}>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
+                <MapPin size={20} className="text-muted-foreground" />
+                <span className="text-base text-muted-foreground">
+                  {profile.location}
+                </span>
+              </div>
+              <div className="flex items-center gap-4">
                 <Mail size={20} className="text-muted-foreground" />
                 <a
-                  href="mailto:email2devam@gmail.com"
+                  href={`mailto:${profile.email}`}
                   className="text-base hover:text-foreground transition-colors text-muted-foreground"
                 >
-                  email2devam@gmail.com
+                  {profile.email}
                 </a>
               </div>
               <div className="flex items-center gap-4">
                 <LinkedinIcon size={20} className="text-muted-foreground" />
                 <a
-                  href="https://linkedin.com/in/devam-kumar"
+                  href={profile.links.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base hover:text-foreground transition-colors text-muted-foreground"
@@ -81,7 +88,7 @@ export function Contact() {
               <div className="flex items-center gap-4">
                 <GithubIcon size={20} className="text-muted-foreground" />
                 <a
-                  href="https://github.com/DevamKumar"
+                  href={profile.links.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base hover:text-foreground transition-colors text-muted-foreground"
@@ -92,7 +99,7 @@ export function Contact() {
               <div className="flex items-center gap-4">
                 <BookOpen size={20} className="text-muted-foreground" />
                 <a
-                  href="https://medium.com/@devamkumar"
+                  href={profile.links.medium}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base hover:text-foreground transition-colors text-muted-foreground"
