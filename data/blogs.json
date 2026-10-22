@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Can an AI Agent Really Break Your Authorization Model?",
+    "link": "https://devamkumar.medium.com/can-an-ai-agent-really-break-your-authorization-model-8d2c8da78ccd?source=rss-739ab00f8505------2",
+    "pubDate": "Tue, 25 Aug 2026 08:16:40 GMT",
+    "thumbnail": null,
+    "category": "API Security",
+    "snippet": "When an AI agent performs an action it shouldn't, is the AI actually the problem? A systems engineering perspective on authorization models and AI agent safety."
+  },
+  {
+    "title": "The Architecture of Production-Grade Agentic AI: A Systems Engineering Guide",
+    "link": "https://devamkumar.medium.com/the-architecture-of-production-grade-agentic-ai-a-systems-engineering-guide-281258cf655f?source=rss-739ab00f8505------2",
+    "pubDate": "Thu, 13 Aug 2026 09:27:03 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*rP4m6e9iWGdbjaY-2bet_g.png",
+    "category": "Agentic AI",
+    "snippet": "Moving beyond stateless LLM wrappers to build resilient, stateful, and observable autonomous systems in enterprise production environments."
+  },
+  {
+    "title": "Is MCP Going to Be the New SaaS?",
+    "link": "https://devamkumar.medium.com/is-mcp-going-to-be-the-new-saas-5a4c0b0c2b2f?source=rss-739ab00f8505------2",
+    "pubDate": "Fri, 08 May 2026 07:58:51 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*blFB4teAMIYMssqawkYsqw.png",
+    "category": "MCP",
+    "snippet": "There was a time when every company wanted a website, then a mobile app, then SaaS. How the Model Context Protocol is setting the stage for the next shift."
+  },
+  {
+    "title": "⚡ 99% of Engineers Are Using APIs Wrong (How I Turned Ours Into an AI-Native System with MCP)",
+    "link": "https://devamkumar.medium.com/99-of-engineers-are-using-apis-wrong-how-i-turned-ours-into-an-ai-native-system-with-mcp-fd6356c7222e?source=rss-739ab00f8505------2",
+    "pubDate": "Thu, 09 Apr 2026 08:30:29 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*l6_sDlCZnTE2BZWk_Q3xzA.png",
+    "category": "System Design",
+    "snippet": "Most engineers think APIs are the final layer — they're not, they're just plumbing. Transforming traditional REST endpoints into dynamic AI-native MCP servers."
+  },
+  {
+    "title": "I Built a Personal AI Career Chatbot Using Python, OpenAI & Pushover",
+    "link": "https://devamkumar.medium.com/i-built-a-personal-ai-career-chatbot-using-python-openai-pushover-0344a55f13e3?source=rss-739ab00f8505------2",
+    "pubDate": "Tue, 17 Mar 2026 17:16:57 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*Wm3SvV2lcUOIW9ULqyKXCw.png",
+    "category": "AI Automation",
+    "snippet": "What if your resume could talk? Building an interactive 24/7 AI version of myself that answers recruiter questions and sends instant push notifications."
+  },
+  {
+    "title": "Building a Local Text-to-Video Generator Using FastAPI and LTX-Video",
+    "link": "https://devamkumar.medium.com/building-a-local-text-to-video-generator-using-fastapi-and-ltx-video-even-on-an-8gb-ram-machine-ccc7ea1e6b54?source=rss-739ab00f8505------2",
+    "pubDate": "Tue, 17 Mar 2026 10:43:00 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*IF72vCWpN5UDYgX5UcYb0Q.png",
+    "category": "FastAPI & GenAI",
+    "snippet": "Running local text-to-video generation on consumer hardware using FastAPI, optimized memory pipelines, and Lightricks LTX-Video."
+  },
+  {
+    "title": "LTX-2: A New Standard for Professional AI Video Generation",
+    "link": "https://devamkumar.medium.com/ltx-2-a-new-standard-for-professional-ai-video-generation-27b554f64ab1?source=rss-739ab00f8505------2",
+    "pubDate": "Thu, 12 Feb 2026 10:21:26 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*Wv-FN4f4D49C7vyrPe_o0A.jpeg",
+    "category": "GenAI Video",
+    "snippet": "Analyzing LTX-2 architecture, latent diffusion mechanisms, and real-time inference capabilities for production video workflows."
+  },
+  {
+    "title": "Understanding ECM, BPM & Information Management",
+    "link": "https://devamkumar.medium.com/understanding-ecm-bpm-information-management-3d6f9b7803af?source=rss-739ab00f8505------2",
+    "pubDate": "Mon, 12 Jan 2026 10:33:08 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*5rAcGzTudWzLAhny8-tVdA.png",
+    "category": "Enterprise Architecture",
+    "snippet": "The enterprise foundation behind content lifecycles, business process automation, metadata indexing, and modern IDP architectures."
+  },
+  {
+    "title": "Agentic AI Frameworks Are Dying — Architecture Is Taking Over",
+    "link": "https://devamkumar.medium.com/agentic-ai-frameworks-are-dying-architecture-is-taking-over-8d8b5fc46188?source=rss-739ab00f8505------2",
+    "pubDate": "Wed, 24 Dec 2025 10:43:55 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*5-m63zxVGkzQ95IBhns1DQ.png",
+    "category": "Architecture",
+    "snippet": "Why rigid agent frameworks fail in real software systems, and why modular, protocol-driven architecture is winning the enterprise."
+  },
+  {
+    "title": "Understanding Large Language Models (LLMs) — Explained With a Parrot Named Buddy",
+    "link": "https://devamkumar.medium.com/understanding-large-language-models-llms-explained-with-a-parrot-named-buddy-f15b1fc021fe?source=rss-739ab00f8505------2",
+    "pubDate": "Sat, 29 Nov 2025 12:06:43 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*lbePisGnv-XXAWrY71xFMQ.png",
+    "category": "AI Education",
+    "snippet": "A beginner-friendly intuition guide for how language models work, probability distributions, token prediction, and RLHF using an analogy of a parrot named Buddy."
+  }
+]
